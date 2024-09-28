@@ -1,0 +1,23 @@
+.card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+.card-background {
+  width: 100%;
+  height: 100%;
+  background-image: url("./bottom_card.jpg");
+  background-size: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+}
